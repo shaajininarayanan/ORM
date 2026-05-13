@@ -23,6 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
 moels.py
 from django.db import models
 
@@ -54,6 +55,7 @@ class OrderAdmin(admin.ModelAdmin):
         'TotalPrice',
         'DeliveryAddress'
     )
+```
 ## OUTPUT
 ![alt text](<Screenshot 2026-05-12 225846.png>)
 
